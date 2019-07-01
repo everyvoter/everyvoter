@@ -32,28 +32,12 @@ Your organization’s EveryVoter schedule, then, could look something like this:
 
 **EveryVoter complements your existing email program by taking care of a large chunk of your GOTV email needs.**
 
-
--------------
-Documentation
--------------
-
-Simple documentation can be found at https://everyvoter.readthedocs.io/. Contributions to the documentation are welcome!
-
------------------------------
-Contributor License Agreement
------------------------------
-
-Contributors to the OFA repository must sign the Contributor License Agreement (`Individual`_ or `Organization`_) before their submission can be accepted. For more information regarding EveryVoter’s CLA review the `Organizing for Action CLA FAQ`_.
-
 -------
 Credits
 -------
 
 EveryVoter was originally written by `Nick Catalano`_ at `Organizing for Action`_. The code for EveryVoter can be viewed at the official `GitHub repository`_, where pull requests can also be submitted.
 
-.. _Individual: https://ofa.github.io/cla-individual.html
-.. _Organization: https://ofa.github.io/cla-entity.html
-.. _Organizing for Action CLA FAQ: https://ofa.github.io/cla-faq.html
 .. _Nick Catalano: https://www.nickcatalano.com/
 .. _Organizing for Action: https://www.ofa.us/
-.. _GitHub repository: https://www.github.com/ofa/everyvoter
+.. _GitHub repository: https://www.github.com/everyvoter/everyvoter
