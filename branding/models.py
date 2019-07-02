@@ -9,7 +9,7 @@ from everyvoter_common.utils.models import TimestampModel
 
 
 class Organization(TimestampModel):
-    """Organization holding an OFAVotes Account"""
+    """Organization holding an EveryVoter Account"""
     name = models.CharField('Name', max_length=50)
     homepage = models.URLField('Homepage')
     platform_name = models.CharField('Platform Name', max_length=50)

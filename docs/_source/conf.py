@@ -4,8 +4,6 @@
 #
 
 project = u'EveryVoter'
-copyright = u'2018, Organizing for Action'
-author = u'Organizing for Action'
 
 extensions = [
     'sphinxcontrib.images',
@@ -24,8 +22,7 @@ html_theme_options = {
 html_static_path = ['_static']
 htmlhelp_basename = 'EveryVoterdoc'
 latex_documents = [
-    (master_doc, 'EveryVoter.tex', u'EveryVoter Documentation',
-     u'Organizing for Action', 'manual'),
+    (master_doc, 'EveryVoter.tex', u'EveryVoter Documentation', 'manual'),
 ]
 man_pages = [
     (master_doc, 'everyvoter', u'EveryVoter Documentation',

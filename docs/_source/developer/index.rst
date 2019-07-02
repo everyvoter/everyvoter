@@ -49,16 +49,7 @@ There are 2 management commands needed to upgrade a constituent to a superuser a
 After this has been done, you’ll be able to access the staff interface by visiting ``https://localhost:8080/manage/`` and Django administrative interface by visiting ``https://localhost:8080/manage/admin/``
 
 
-*****************************
-Contributor License Agreement
-*****************************
 
-Contributors to the OFA repository must sign the Contributor License Agreement (`Individual`_ or `Organization`_) before their submission can be accepted. For more information regarding EveryVoter’s CLA review the `Organizing for Action CLA FAQ`_.
-
-
-.. _Github repository: https://github.com/ofa/everyvoter
+.. _Github repository: https://github.com/everyvoter/everyvoter
 .. _Geocod.io: https://www.geocod.io/
 .. _LiveReload Plugin: https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en
-.. _Individual: https://ofa.github.io/cla-individual.html
-.. _Organization: https://ofa.github.io/cla-entity.html
-.. _Organizing for Action CLA FAQ: https://ofa.github.io/cla-faq.html

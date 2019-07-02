@@ -31,8 +31,7 @@ env = environ.Env(
     DEMOCRACY_WORKS_API_KEY=(str, ''),
     DEMOCRACY_WORKS_API_URL=(str, 'http://127.0.0.1:8000/'),
     DEBUG_TOOLBAR_IPS=(list, ['127.0.0.1']),
-    CORS_ORIGIN_REGEX_WHITELIST=(tuple, (
-        r'^(https?://)?(.+)\.ofa\.us$', r'^(https?://)?(.+)\.ofa\.us:8000$')),
+    CORS_ORIGIN_REGEX_WHITELIST=(list, []),
     CORS_ORIGIN_WHITELIST=(list, ['localhost:8000', '127.0.0.1:8000']),
     SES_CONFIGURATIONSET_NAME=(str, 'everyvoter'),
     SECURE_SSL_REDIRECT=(bool, False)
@@ -271,7 +270,6 @@ REST_FRAMEWORK = {
 ####
 # CORS Settings
 
-# By default allow all *.ofa.us and *.ofa.us:8000 subdomains
 CORS_ORIGIN_REGEX_WHITELIST = env('CORS_ORIGIN_REGEX_WHITELIST')
 
 # Also allow some standard dev URLs
