@@ -1,4 +1,4 @@
-sphinx
-sphinx_rtd_theme
-sphinx-autobuild
-sphinxcontrib-images
+sphinx==2.2.1
+sphinx_rtd_theme==0.4.3
+sphinx-autobuild==0.7.1
+-e git+https://github.com/t-b/sphinxcontrib-images.git@c76b9c25efb249f9c5054adbb436455095c6d2f7#egg=sphinxcontrib-images

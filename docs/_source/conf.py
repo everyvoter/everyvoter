@@ -4,9 +4,11 @@
 #
 
 project = u'EveryVoter'
+author = u'Nick Catalano'
 
 extensions = [
     'sphinxcontrib.images',
+    "sphinx_rtd_theme",
 ]
 
 templates_path = ['_templates']
@@ -22,7 +24,8 @@ html_theme_options = {
 html_static_path = ['_static']
 htmlhelp_basename = 'EveryVoterdoc'
 latex_documents = [
-    (master_doc, 'EveryVoter.tex', u'EveryVoter Documentation', 'manual'),
+    (master_doc, 'EveryVoter.tex', u'EveryVoter Documentation',
+     u'everyvoter', 'manual'),
 ]
 man_pages = [
     (master_doc, 'everyvoter', u'EveryVoter Documentation',
