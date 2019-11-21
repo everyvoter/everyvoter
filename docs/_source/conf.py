@@ -4,9 +4,11 @@
 #
 
 project = u'EveryVoter'
+author = u'Nick Catalano'
 
 extensions = [
     'sphinxcontrib.images',
+    "sphinx_rtd_theme",
 ]
 
 templates_path = ['_templates']
