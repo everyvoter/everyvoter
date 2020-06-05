@@ -1,5 +1,5 @@
 # Basic Packages
-Django==1.11.23
+Django==1.11.29
 psycopg2-binary==2.7.4
 six==1.11.0
 pytz==2018.4
