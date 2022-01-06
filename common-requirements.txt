@@ -7,7 +7,7 @@ django-localflavor==1.4.1
 
 
 # Task packages
-celery==4.1.1
+celery==5.2.2
 django-celery-results==1.0.1
 -e git+https://github.com/celery/django-celery-beat.git@27f73a565734a2538765723767ed1c96276566e9#egg=django-celery-beat
 
